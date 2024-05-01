@@ -1,0 +1,54 @@
+.about_hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(54, 51, 51, 0.52),
+        rgba(59, 59, 59, 0.73)
+      ),
+      url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/about-bg.jpg);
+    width: 100%;
+    min-height: auto;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .about_me {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    flex-direction: column;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    letter-spacing: 1px;
+  }
+  .about_me h2 {
+    font-size: 5rem;
+  }
+  .about_me span {
+    font-size: 1.5rem;
+  }
+  
+  .about_lorem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_lorem p {
+    font-size: 20px;
+    font-weight: 444;
+  
+    line-height: 28px;
+    color: #212529;
+    margin: 2rem 0;
+    letter-spacing: 1px;
+    max-width: 546px;
+  //   width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+    font-family: "Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji";
+  }
