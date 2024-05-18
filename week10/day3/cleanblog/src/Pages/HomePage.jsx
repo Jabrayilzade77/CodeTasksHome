@@ -1,10 +1,15 @@
 import React from "react";
 import "./HomePage.scss";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 function HomePage() {
   return (
     <>
+      <Helmet>
+        <title>Home Page</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
       <section className="hero">
         <div className="clean_blog">
           <h2>Clean Blog</h2>
@@ -93,8 +98,10 @@ function HomePage() {
 
             <p className="tag_post">
               Posted by{" "}
-             
-              <Link to={"/"} className="tag_boot"> Start Bootstrap </Link>
+              <Link to={"/"} className="tag_boot">
+                {" "}
+                Start Bootstrap{" "}
+              </Link>
               on July 8, 2023
             </p>
             <p className="underline"></p>

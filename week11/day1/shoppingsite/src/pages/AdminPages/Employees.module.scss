@@ -1,0 +1,63 @@
+.admin_container{
+  max-width: 1344px;
+    padding: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .admin_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .admin_imgs{
+    width: 200px;
+}
+.btns_admin{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.delete_admin{
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+
+}
+.edit_admin{
+    background-color: rgb(245, 0, 0);
+    border-radius: 4px;
+    width: 70px;
+    height: 40px;
+    
+}
+
+.admin_edit_context{
+    color: white;
+    font-size: 20px;
+}
+
+
+// @media screen and (max-width:) {
+  
+// }

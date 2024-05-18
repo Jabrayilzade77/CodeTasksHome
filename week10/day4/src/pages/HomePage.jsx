@@ -27,7 +27,8 @@ function HomePage() {
       >
         {prodcuts.map((x) => (
           <div key={x.id} style={{ width: "23%", border: "1px solid black" }}>
-              <div onClick={()=>addwishlist(x)}> {isExistwishlist(x) ? <i className="fa-solid fa-heart"></i>:   <i className="fa-regular fa-heart"></i>}
+              <div onClick={()=>addwishlist(x)}> {isExistwishlist(x) ? <i className="fa-solid fa-heart"></i>:   
+              <i className="fa-regular fa-heart"></i>}
 </div>
 
           

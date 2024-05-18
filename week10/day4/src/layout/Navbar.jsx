@@ -12,6 +12,7 @@ function Navbar() {
         </Link>
         <Link to={"basket"} style={{ padding: "5px" }}>Basket {basket.length}</Link>
         <Link to={"wishlist"}>Wishlist</Link>
+        <Link to={"add"}>Add Form</Link>
         
       </button>
     </nav>
